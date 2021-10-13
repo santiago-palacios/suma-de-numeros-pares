@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Mi prueba</title>
+</head>
+
+<body>
+    <script>
+
+        // array con los valores
+        var numeros = [1, 3, 4, 5, 6, 7, 8, 9, 0, 12, 13, 21, 25, 26, 67];
+        var suma = 0;
+        var i = 0;
+
+        // recorre el array y toma los parres para sumarlos
+        for (let i = 0; i <= numeros.length; i++) {
+            if (numeros[i] % 2 == 0) {
+                suma = suma + numeros[i];
+            }
+        }
+
+        // resultado de la suma
+        console.log("la sumatoria del arreglo es ", suma);
+    </script>
+</body>
+
+</html>
